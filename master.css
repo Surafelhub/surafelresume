@@ -1,0 +1,158 @@
+
+/*general styles*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #EBE7E3;
+}
+
+/*styleing the header and main parts*/
+
+header, section {
+    max-width: 80%;
+    margin: 50px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+h3 {
+    display: block;
+    margin: 5px 10px;
+    text-align: center;
+}
+
+header {
+    position: relative;
+    top: 50px;
+}
+
+header img {
+    max-width: 200px;
+}
+
+header div {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px;
+}
+
+header #profile-text {
+    max-width: 500px;
+}
+
+header #profile-text h1 {
+    font-family: Roboto, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h3 {
+    font-family: Roboto, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: #776D69;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+header #profile-text h3 {
+    max-width: 300px;
+}
+
+header #profile-text p {
+    font-family: Roboto, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.3rem;
+    margin: 20px;
+}
+
+header hr {
+    width: 300px;
+    margin: auto;
+    height: 7px;
+    background-color: #4C6969;
+    border: none;
+}
+
+/*styling the section parts*/
+
+section {
+    margin-bottom: 25px;
+}
+
+section div {
+    width: 250px;
+    height: 250px;
+    border: solid 1px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background: #776D69;
+    margin: 10px;
+}
+
+
+section div img {
+    max-width: 100px;
+    margin: auto;
+}
+
+section div p {
+    font-family: roboto, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section div h4, .skills p {
+    padding: 10px 15px;
+    background-color: #6DB4D4;
+    color: white;
+    border-radius: 10px;
+    width: 150px;
+}
+
+section div h4:hover, .skills p:hover {
+    cursor: pointer;
+    background: #4F83B2;
+}
+
+/*styling the navigation barr and the footer*/
+
+nav {
+    z-index: 1;
+    width: 100%;
+    height: 50px;
+    background: #4F83B2;
+    position: fixed;
+    top: 0;
+}
+
+footer {
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+    box-sizing: border-box;
+    padding: 5px;
+    width: 100%;
+    background: #4C6969;
+    z-index: 1px;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+}
+
+
+header, section, h3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
